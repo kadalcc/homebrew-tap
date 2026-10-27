@@ -11,7 +11,8 @@ brew install kadalcc/tap/kadal-deck
 ```
 
 Or tap once and use the short names: `brew tap kadalcc/tap`, then `brew install --cask kadal-deck`
-and `brew install kadal-deck`.
+and `brew install kadal-deck`. Homebrew 7 and later load a third-party tap's short names only once
+you trust it: `brew trust kadalcc/tap` (the full `kadalcc/tap/…` names above work either way).
 
 ## The first launch
 
