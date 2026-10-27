@@ -15,9 +15,10 @@ cask "kadal-deck" do
     end
   end
 
-  # macOS 11 is the app's floor (tauri.conf.json), no newer than the oldest macOS Homebrew supports,
-  # so `brew style` rejects a depends_on macos: line as redundant.
   auto_updates true
+  # macOS 11 is the app's floor (tauri.conf.json), no newer than the oldest macOS Homebrew supports,
+  # so `brew style` asks for the bare form rather than a version.
+  depends_on :macos
 
   app "Kadal Deck.app"
 
