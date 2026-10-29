@@ -2,8 +2,8 @@
 class KadalDeck < Formula
   desc "Build, rehearse and present slide decks written in MDX"
   homepage "https://deck.kadal.cc/docs/cli/"
-  url "https://registry.npmjs.org/@kadal/deck/-/deck-0.8.3.tgz"
-  sha256 "91b1dce4cc64d3ad93755fad889d129d0914f40d45bb5f10e8bf56ebecd4ef3a"
+  url "https://registry.npmjs.org/@kadal/deck/-/deck-0.11.0.tgz"
+  sha256 "7efeccaa6b1e4c5431b056f43e21ce335fdc522cdfb1b7d0736218d137beab16"
   license "AGPL-3.0-or-later"
 
   depends_on "node"
